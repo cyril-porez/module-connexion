@@ -1,0 +1,463 @@
+/*-------------------Header---------------*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#porezuino {
+    
+    color: white;
+    margin-left: 30px;  
+    margin-top: 50px;  
+}
+
+#menu {
+    float: right;
+    display: inline-flex;
+    margin-right: 50px;
+    padding-top: 35px;
+    list-style: none;
+  }
+  
+  #navbar {
+    background-color: #4EBEA6;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navig {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  
+  li .navig {
+    display: block;
+    padding: 20px 20px;
+  }
+  
+  li .navig:hover {
+    cursor: pointer;
+    color: red;
+    background-color: rgb(78, 77, 80);
+  }
+
+  #conn {
+      color: white;
+      margin-left: 10px;
+      margin-top: 20px;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      
+  }
+
+/*--------------------FIN----------------*/
+
+
+/*-----------------index.php--------------*/
+#mainIndex {
+    height: 150vh;
+}
+
+.arduino {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/*--------------------FIN----------------*/
+
+/*--------------inscription.php-----------*/
+#mainInscription {
+    height: 90vh;
+}
+
+#formInscription {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 231, 231);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#formu {    
+    width: 100%; 
+    height: 100%; 
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin: 50px;   
+}
+
+#bouttonIns {
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: rgb(238, 12, 12);
+    color: white;
+}
+
+.champs {
+    margin-top: 15px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #545454;
+}
+
+
+/*------------------Fin------------------*/
+
+/*----------------connexion.php---------*/
+#mainConnexion {
+    height: 65vh;
+}
+
+#formConnexion {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 231, 231);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#formuConnexion {
+    width: 100%; 
+    height: 100%; 
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    margin-top: 50px;
+}
+
+#boutonConnex {
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: rgb(238, 12, 12);
+    color: white;
+}
+
+.champsConnex {
+    margin-top: 15px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #545454;
+}
+
+/*-------------------FIN----------------*/
+
+/*------------------profil.php-----------*/
+#mainProfil {
+    height: 70vh;
+}
+#formuProfil {
+    width: 100%; 
+    height: 100%; 
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+}
+
+#formProfil {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 231, 231);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#boutonModif {
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: rgb(238, 12, 12);
+    color: white;
+}
+
+.champsProfil {
+    margin-top: 15px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #545454;
+}
+/*--------------------FIN----------------*/
+
+/*-------------------admin.php------------*/
+#mainAdmin {
+    min-height: 70vh;
+    margin-bottom: 30px;
+}
+
+#table {
+      display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 40px;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 40px;
+}
+
+#idAdmin {
+    width: 30px;
+}
+
+.textAdmin {
+    text-align: center;
+}
+
+#read {
+    background-color: rgb(12, 121, 148);
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}
+
+#update {
+    background-color: rgb(216, 206, 206);
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}
+
+#delete {
+    background-color: rgb(214, 16, 16);
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}
+
+#créer {
+    background-color: rgb(20, 187, 56);
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}
+
+#createUser {
+    background-color: rgb(20, 187, 56);
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}
+
+#affichUser {
+    background-color: rgb(20, 187, 56);
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}
+
+#efface {
+    background-color: rgb(250, 3, 3);
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}
+
+#trio {
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+#adminInscri {
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+/*--------------------FIN-----------------*/
+
+/*-----------------delete.php-------------*/
+#yes {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 170px;
+}
+
+#no {
+    background-color: rgb(14, 212, 14);
+    color: white;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+
+}
+
+#textDelete {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+#deleteUser {
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*-------------------FIN------------------*/
+
+/*-------------------read.php-------------*/
+#formuCrudRead {
+    width: 100%; 
+    height: 100%; 
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#formCrudRead {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 231, 231);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#butonRead {
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: rgb(238, 12, 12);
+    color: white;
+}
+
+.champsRead{
+    margin-top: 15px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #545454;
+}
+/*------------------FIN-------------------*/
+
+/*-----------------update.php-------------*/
+#formuCrudUpdate {
+    width: 100%; 
+    height: 100%; 
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#formCrudUpdate {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 231, 231);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.champsCrudUpdate {
+    margin-top: 15px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #545454;
+}
+
+#butonUpdate {
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: rgb(238, 12, 12);
+    color: white;
+    margin-left: 140px;
+}
+
+#back {
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: green;
+    color: white;
+    margin-left: 10px;
+}
+
+#containerBouton {
+    display: flex;
+    flex-direction: row;
+}
+
+/*-------------------FIN------------------*/
+/*---------------message error------------*/
+#msgError {
+    color: red;
+    font-size: 13px;
+}
+
+/*-------------------FIN-----------------*/
+
+/*------------------FOOTER---------------*/
+
+ #foot {
+     height: 100px;
+     background-color: rgb(19, 118, 136);
+ }
+
+ #lien {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-top: 50px;
+ }
+/*--------------------FIN----------------*/
